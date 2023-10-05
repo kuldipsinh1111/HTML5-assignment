@@ -1,0 +1,79 @@
+HTML5 assignment
+
+Q.1 What are the new tags added in HTML5?
+Ans.
+    Tag	          Description
+
+    Structural or Semantic Tags
+
+    <article>	  It defines the independent or self-contained content of a webpage.
+    <aside>	  It defines the content which provide information about the main content.
+    <bdi>	  It is used to isolate the part of text which might be formatted in another direction.
+    <details>	  It defines additional information which only visible as per user demand.
+    <dialog>	  It represents a dialog box or other interactive components.
+    <figcaption>  It defines caption for the <figure> element.
+    <figure>	  It defines a self-contained content, and referenced as a single unit.
+    <footer>	  It represents the footer section of the webpage.
+    <header>	  It defines the introductory or navigational content of the webpage.
+    <main>	  It specifies the main content of the HTML document.
+    <mark>	  It represent the text which is highlighted or marked for reference or notation purposes.
+    <meter>	  It represents a scalar value within a known range.
+    <nav>	  It represents the section which contains navigation links.
+    <progress>	  It defines a progress bar which shows completions progress of a task.
+    <rp>	  It defines alternative content for the browser which do not support ruby annotations.
+    <rt>	  It defines explanations and pronunciations of characters in ruby annotations.
+    <ruby>	  It defines ruby annotations (Specifically for Asian language).
+    <section>	  It defines a generic section within an HTML document.
+    <summary>	  It defines summary or caption for a <details> element which can be clicked to change the state of <details> element.
+    <time>	  It defines data/time within an HTML document.
+    <wbr>	  It specifies a line break opportunity. (Where line break possible)
+
+    HTML5 Form Tags
+
+    <datalist>	  It represent predefined list for input <option> element.
+    <output>	  It is used a container element to represent the output of a calculation or outcome of user action.
+
+    Graphics Tags
+
+    <canvas>	  It allows drawing graphics and animations via scripting.
+    <svg>	  It is used to draw scalable vector graphics.
+
+    HTML5 Media Tags
+
+    <audio>	  It defines sound content.
+    <embed>	  It defines a container for external files/application/media.
+    <source>	  It defines multiple media resources for the media elements.
+    <track>	  It defines text tracks for <audio> and <video> files
+    <video>	  It defines video content within HTML document.
+
+
+Q.2 How to embed audio and video in a webpage?
+Ans.
+    The HTML5 <audio> and <video> tags make it simple to add media to a website. You need to set src attribute to identify the media source and include a controls attribute so the user can play and pause the media.
+
+
+Q.3 Semantic element in HTML5?
+Ans.
+    A semantic element clearly describes its meaning to both the browser and the developer. Examples of non-semantic elements: <div> and <span> - Tells nothing ...
+
+
+Q.4 Canvas and SVG tags
+Ans.
+                 SVG                                               Canvas
+
+    Vector based (composed of shapes)                    Raster based (composed of pixel)    
+ 
+    SVG has better scalability. So it                    Canvas has poor scalability. Hence it 
+    can be printed with high quality                     not suitable for printing on higher
+    at any resolution.                                   resolution.
+
+    SVG gives better performance with                    Canvas gives better performance with
+    smaller number of objects or larger                  smaller surface or larger number of 
+    surface.                                             objects.
+
+    SVG can be modified through script                   Canvas can be modified through script
+    and CSS.                                             only.
+
+    Multiple graphical elements, which                   Single element similar to <img> in 
+    become the part of the page’s DOM                    behavior. Canvas diagram can be saved 
+    tree.                                                to PNG or JPG format.
